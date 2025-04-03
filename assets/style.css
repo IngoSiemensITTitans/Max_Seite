@@ -3,27 +3,53 @@
 body {
     background-color: rgba(8, 51, 159, 0.854);
     color: cyan;
-    font-family: "Press Start 2P" ;
+    font-family: "Press Start 2P";
 }
 
 h1 {
     font-size: 50px;
     text-decoration: underline;
     color: rgb(24, 123, 148);
-    font-family: "Bungee Spice", sans-serif;    
+    font-family: "Bungee Spice", sans-serif;
+    text-align: center;
 }
 
-li{
+li {
     padding-bottom: 24px;
 }
-header{
+
+header {
     padding-bottom: 20px;
 }
+
 main p {
     padding-bottom: 10px;
 }
 
-.football {
-    width: 200px;
+.img-flex {
+    /* align-items: center; */
+    display: flex;
 }
 
+.flex-football {
+    flex-basis: 40%;
+}
+
+.flex-other {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 60%;
+}
+
+.football {
+    width: 100%;
+}
+
+.fishing {
+    width: 100%;
+}
+
+.bmx {
+    width: 100%;
+}
