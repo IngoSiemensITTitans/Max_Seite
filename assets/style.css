@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Press+Start+2P&display=swap');
+
+body {
+    background-color: rgba(8, 51, 159, 0.854);
+    color: cyan;
+    font-family: "Press Start 2P" ;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(24, 123, 148);
+    font-family: "Bungee Spice", sans-serif;    
+}
